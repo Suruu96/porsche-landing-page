@@ -1,0 +1,98 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #000;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#hero {
+    position: relative;
+    background: url('porsche-hero.webp') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-content {
+    text-align: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-content h1 {
+    font-size: 68px;
+    margin: 0 0 10px 0;
+}
+
+.hero-content p {
+    font-size: 38px;
+    margin: 0 0 20px 0;
+}
+.btn {
+    background: #e60d2e;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.model-card {
+    display: inline-block;
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+}
+
+.model-card img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
